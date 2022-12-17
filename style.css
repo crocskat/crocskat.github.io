@@ -1,0 +1,11 @@
+.main {
+  border: 1px solid #4287f5;
+  height: 180px;
+  width: 500px;
+  position: relative;
+}
+
+column1 {
+  color: #4287f5;
+  text-align: center;
+}
