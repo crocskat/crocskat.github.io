@@ -1,11 +1,56 @@
-.main {
-  border: 1px solid #4287f5;
-  height: 180px;
-  width: 500px;
-  position: relative;
+body{
+    background-color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+
 }
 
-column1 {
-  color: #4287f5;
-  text-align: center;
+
+.head{
+    background-color: #999;
+    text-align: left;
+    margin-top: 0%;
+    color: black;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+.intro{
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+.blog{
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+.contact{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+
+}
+.foot{
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+.contact a{
+    text-decoration: underline;
+    justify-content: space-between;
+    color: wheat;
+}
+#mail{
+    padding: 2%;
+
+}
+#twitter{
+    padding: 2%;
+
+}
+#reddit{
+    padding: 2%;
 }
