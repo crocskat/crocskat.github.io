@@ -1,56 +1,74 @@
-body{
-    background-color: #333;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    padding-left: 5%;
-    padding-right: 5%;
+*{
+    margin-top: 0%;
+    margin: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-
-
-.head{
-    background-color: #999;
+#name{
+    text-decoration: none;
+    color: white;
     text-align: left;
-    margin-top: 0%;
-    color: black;
+    transition: 2s;
+    font-family: sans-serif;
+}
+.logo h1{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 40px;
+}
+#name:hover{
+    text-decoration: underline;
+
+}
+.logo{
+    background-color: #333;
+    padding-bottom: 2rem;
+    align-items: left;
+    top: 0;
     position: sticky;
     position: -webkit-sticky;
-    top: 0;
+    padding-top: 2rem;
 }
-.intro{
-    padding-left: 5%;
-    padding-right: 5%;
-
-}
-.blog{
-    padding-left: 5%;
-    padding-right: 5%;
-
-}
-.contact{
-    padding-left: 5%;
-    padding-right: 5%;
+.contacts{
     text-align: center;
+    color: black;
+    margin-top: 2rem;
 
 }
-.foot{
-    padding-left: 5%;
-    padding-right: 5%;
+.contacts a{
+    color: black;
+}
+.contacts h2{
+    padding-bottom: 1rem;
 
 }
-.contact a{
-    text-decoration: underline;
+
+
+    .body p{
+    padding-top: 2%;
+    padding-left:5% ;
+    padding-right:5%;
+    font-size: 15px;
+
+}
+.contacts a{
+    color: cornflowerblue;
+    transition: 0.2s;
     justify-content: space-between;
-    color: wheat;
 }
-#mail{
-    padding: 2%;
-
+.contacts a:hover{
+    color: white;
+    background-color: #333;
 }
 #twitter{
-    padding: 2%;
-
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #reddit{
-    padding: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#mail{
+    padding-left: 10px;
+    padding-right: 10px;
 }
