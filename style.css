@@ -72,3 +72,34 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+.tweets{
+  width: 720px;
+  height: 450px;
+    
+}
+.blogs{
+    text-align: left;
+    padding-left: 20%;
+}
+.blogs a{
+    text-decoration: none;
+    color: #58a6ff;
+    transition: 2s;
+
+}
+.blogs a:hover{
+    text-decoration: underline;
+}
+.blogs p{
+    text-align: left;
+    padding-left: 40px;
+}
+
+.para{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+.title h1{
+    text-align: center;
+}
