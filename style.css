@@ -54,6 +54,7 @@
   transition: 2s;
   font-size: 190%;
   padding-bottom: 2px;
+  padding-top: 4px;
 }
 .blogs a:hover {
   text-decoration: underline;
