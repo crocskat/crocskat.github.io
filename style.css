@@ -1,105 +1,133 @@
-*{
-    margin-top: 0%;
-    margin: 0%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+* {
+  margin: 0%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #121212;
 }
-#name{
-    text-decoration: none;
-    color: white;
-    text-align: left;
-    transition: 2s;
-    font-family: sans-serif;
+.line1 {
+  margin-left: 12%;
+  margin-right: 12%;
 }
-.logo h1{
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 40px;
+.line2 {
+  margin-left: 12%;
+  margin-right: 12%;
 }
-#name:hover{
-    text-decoration: underline;
-
+.line3 {
+  margin-left: 12%;
+  margin-right: 12%;
 }
-.logo{
-    background-color: #333;
-    padding-bottom: 2rem;
-    align-items: left;
-    top: 0;
-    position: sticky;
-    position: -webkit-sticky;
-    padding-top: 2rem;
+.name {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  transition: 2s;
+  font-family: sans-serif;
+  font-size: 350%;
+  background-color: #333;
 }
-.contacts{
-    text-align: center;
-    color: black;
-    margin-top: 2rem;
-
+.logo {
+  padding-left: 12%;
+  padding-right: 12%;
+  background-color: #333;
 }
-.contacts a{
-    color: black;
+.name:hover {
+  text-decoration: underline;
 }
-.contacts h2{
-    padding-bottom: 1rem;
-
+.logo {
+  padding-bottom: 2rem;
+  align-items: left;
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  padding-top: 2%;
 }
-
-
-    .body p{
-    padding-top: 2%;
-    padding-left:5% ;
-    padding-right:5%;
-    font-size: 15px;
-
+.blogs {
+  padding-left: 12%;
 }
-.contacts a{
-    color: cornflowerblue;
-    transition: 0.2s;
-    justify-content: space-between;
-}
-.contacts a:hover{
-    color: white;
-    background-color: #333;
-}
-#twitter{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-#reddit{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-#mail{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.tweets{
-  width: 720px;
-  height: 450px;
-    
-}
-.blogs{
-    text-align: left;
-    padding-left: 20%;
-}
-.blogs a{
-    text-decoration: none;
-    color: #58a6ff;
-    transition: 2s;
-
-}
-.blogs a:hover{
-    text-decoration: underline;
-}
-.blogs p{
-    text-align: left;
-    padding-left: 40px;
+.blogs p {
+  color: #667380;
 }
 
-.para{
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 2rem;
+.blogs a {
+  text-decoration: none;
+  color: #58a6ff;
+  transition: 2s;
+  font-size: 190%;
+  padding-bottom: 2px;
 }
-.title h1{
-    text-align: center;
+.blogs a:hover {
+  text-decoration: underline;
+}
+
+.body p {
+  padding-top: 2%;
+  padding-left: 12%;
+  padding-right: 12%;
+  font-size: 15px;
+  color: white;
+}
+.title {
+  padding-top: 2%;
+  padding-left: 12%;
+  padding-right: 12%;
+  font-size: 200%;
+  color: white;
+  font-weight: 30000%;
+}
+
+.contacts {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.contacts p {
+  padding-bottom: 1rem;
+  color: white;
+  font-size: 150%;
+}
+
+.contacts a {
+  color: cornflowerblue;
+  transition: 0.2s;
+  justify-content: space-between;
+}
+.contacts a:hover {
+  color: white;
+  background-color: #333;
+}
+#twitter {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#reddit {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#mail {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media only screen and (max-width: 768px) {
+  * .name,
+  .logo,
+  .blogs,
+  .blogs p,
+  .body,
+  .body p,
+  .contacts,
+  .contacts p {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .title,
+  .title p {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .line1,
+  .line2,
+  .line3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
