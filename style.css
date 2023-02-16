@@ -42,30 +42,49 @@
   padding-top: 2%;
 }
 .blogs {
-  padding-left: 12%;
+  padding-left: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .blogs p {
   color: #667380;
 }
 
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
 .blogs a {
   text-decoration: none;
   color: #58a6ff;
   transition: 2s;
   font-size: 190%;
-  padding-bottom: 2px;
-  padding-top: 4px;
 }
 .blogs a:hover {
   text-decoration: underline;
 }
 
 .body p {
-  padding-top: 2%;
+  padding-top: 12px;
   padding-left: 12%;
   padding-right: 12%;
   font-size: 15px;
   color: white;
+}
+.body a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+.body a:hover {
+  text-decoration: underline;
 }
 .title {
   padding-top: 2%;
@@ -82,7 +101,8 @@
 }
 
 .contacts p {
-  padding-bottom: 1rem;
+  padding-bottom: 12px;
+  text-decoration: underline;
   color: white;
   font-size: 150%;
 }
@@ -95,6 +115,10 @@
 .contacts a:hover {
   color: white;
   background-color: #333;
+}
+#youtube {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 #twitter {
   padding-left: 10px;
@@ -117,18 +141,24 @@
   .body p,
   .contacts,
   .contacts p {
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .title,
   .title p {
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .line1,
   .line2,
   .line3 {
     margin-left: 0;
     margin-right: 0;
+  }
+  .logo {
+    padding-top: 16px;
+  }
+  .blogs {
+    padding-left: 1%;
   }
 }
